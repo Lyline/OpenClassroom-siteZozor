@@ -58,37 +58,51 @@ table {
     url("/polices/dayrom.woff") format("woff"); 
 }
 
-// Header //
+/* Header */
 
 header{
     display: flex;
     background-color: #FFF5D7;
-
 }
 
 header div{
    margin-left: 5%;
    margin: 10px 0;
    padding-left: 30px;
-   background-color: #fff;
 }
+
 header h1{
     font-family: ballpark;
-    font-size: 2.7em;
+    font-size: 3em;
 }
 
 nav {
-    text-align: center;
+    margin-top: 7%;
+    margin-left: 40%;
 }
+
 nav li{
     display: inline;
-    background-color: #fff;
-    margin: 0 auto;
-
-    
+    padding-left: 40px;
 }
 
 nav a{
+    font-size: 1.1em;
+    font-weight: 400;
     color : #504e49;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav :hover a{
+    color: #861b19;
+    text-decoration: underline;
+}
+
+
+/* Miscellaneous */
+hr{
+    border-image: url('./images/separateur.png')50;
+    margin-top: 0px;
+    
 }
