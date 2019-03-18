@@ -57,6 +57,9 @@ table {
     url("/polices/dayrom.ttf") format("ttf"),
     url("/polices/dayrom.woff") format("woff"); 
 }
+
+// Header //
+
 header{
     display: flex;
     background-color: #FFF5D7;
