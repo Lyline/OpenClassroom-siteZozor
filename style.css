@@ -58,17 +58,27 @@ table {
     url("/polices/dayrom.woff") format("woff"); 
 }
 
+body{
+    background-image: url(/images/fond_jaune.png);
+}
+
+.page_container{
+    width: 85%;
+    margin: auto;
+}
 /* Header */
 
 header{
     display: flex;
-    background-color: #FFF5D7;
+    justify-content: space-between;
+
+    background: url(/images/separateur.png) repeat-x bottom;
+
 }
 
 header div{
-   margin-left: 5%;
-   margin: 10px 0;
-   padding-left: 30px;
+   margin-bottom: 10px;
+   text-align: center;
 }
 
 header h1{
@@ -76,14 +86,18 @@ header h1{
     font-size: 3em;
 }
 
-nav {
-    margin-top: 7%;
-    margin-left: 40%;
+nav{
+    display: flex;
+    
+}
+nav ul{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
 }
 
 nav li{
-    display: inline;
-    padding-left: 40px;
+    padding-right: 40px;
 }
 
 nav a{
@@ -94,15 +108,7 @@ nav a{
     text-decoration: none;
 }
 
-nav :hover a{
+nav a:hover {
     color: #861b19;
     text-decoration: underline;
-}
-
-
-/* Miscellaneous */
-hr{
-    border-image: url('./images/separateur.png')50;
-    margin-top: 0px;
-    
 }
