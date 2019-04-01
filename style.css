@@ -60,7 +60,7 @@ table {
 body{
     background-image: url(/images/fond_jaune.png);
 }
-.page_container{
+#page_container {
     width: 85%;
     margin: auto;
 }
@@ -95,6 +95,7 @@ nav ul{
 
 nav a{
     padding-left: 40px;
+   
     font-size: 1.3em;
     font-weight: 400;
     color : #504e49;
@@ -105,4 +106,43 @@ nav a{
 nav a:hover {
     color: #861b19;
     text-decoration: underline;
+}
+
+/* Main */
+
+#news_picture div{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 95%;   
+}
+
+#news_picture img{
+    display: block;
+    margin: 15px auto;
+    width: 95%;
+    
+    border-radius: 15px;
+}
+
+#news_picture_legend {
+    position: relative;
+    top: -47px;
+    display: flex; 
+    justify-content: space-between;
+    
+    background-color: rgba(0,0,0,0.5);
+    line-height: 2em;
+    font-size: 1em;
+    border-radius: 0 0 15px 15px;
+}
+
+#news_picture p{
+    padding-left: 10px;
+    color: #FFF;
+}
+
+#news_picture a{
+    padding-right: 10px;
+    color:green;
 }
