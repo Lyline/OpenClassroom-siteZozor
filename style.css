@@ -60,6 +60,7 @@ table {
 body{
     background-image: url(/images/fond_jaune.png);
 }
+
 #page_container {
     width: 85%;
     margin: auto;
@@ -102,7 +103,7 @@ nav li{
 
 nav a{
     padding-left: 40px;
-   
+    
     font-size: 1.3em;
     font-weight: 400;
     color : #504e49;
@@ -154,11 +155,11 @@ nav :hover a{
     margin-right: 10px;
     padding-right: 10px;
     padding-left: 10px;
-
+    
     line-height: 1.4em;
     background-image:linear-gradient(#AC6465 , #760001);
     border-radius:10px;
-
+    
     color: #fff;
     font-family: sans-serif;
 }
@@ -220,7 +221,7 @@ aside::after{
     top:-280px;
     right: 150px;
     content: url(/images/bulle.png)
-
+    
 }
 aside h2{
     font-size: 1.3em;
@@ -234,7 +235,7 @@ aside h2{
 aside p{
     margin: 20px 0;
     padding: 0 20px;
-
+    
     font-family: sans-serif;
     text-align: justify;
     color: #FFF;
@@ -242,4 +243,43 @@ aside p{
 
 .asideLogo{
     margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: url(/images/ico_top.png) no-repeat top;
+    background-position: 50% -2px;
+}
+
+footer h3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer p{
+    margin-left: 10px;
+    margin-bottom: 1em;
+}
+
+footer img{
+    border: 1px solid black;
+}
+
+.friendList{
+    columns: 2;
+}
+
+footer li::before{
+    content: url(/images/ico_liensexterne.png)
+}
+
+footer a{
+    color: #760007;
 }
